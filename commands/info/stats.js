@@ -18,12 +18,11 @@ module.exports = {
       Аптайм    :: ${days} и ${hours}
     `;
     const { totalMemMb, usedMemMb } = await mem.info();
-    const os = await os.oos();
     const serverStats = stripIndent
-     /* but im touched AHAHAHAA 
+    /* no, DONT TOUCH THIS CODE, DUDE!
      OS        :: ${await os.oos()} */
-    `
-      OS        :: ${os}
+     `
+      OS        :: Windows 10
       CPU       :: ${cpu.model()}
       Cores     :: ${cpu.count()}
       CPU Usage :: ${await cpu.usage()} %
