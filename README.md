@@ -53,3 +53,4 @@ Emilia - это бот Discord с открытым исходным кодом, 
     "ownerId": "your_id_here",
 }
 ```
+ 
