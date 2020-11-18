@@ -9,7 +9,7 @@ module.exports = {
       callback: async message => {
     //command
 
-  //Checks channel for nsfw
+  // Проверка канала на наличие NSFW
   var errMessage = "Это не NSFW канал!";
   if (!message.channel.nsfw) {
       message.react('💢');
