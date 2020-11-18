@@ -11,8 +11,8 @@ const client = new Discord.Client();
 client.once('ready', () => {
     console.log(`Now watching ${client.guilds.cache.size} servers`)
     console.log("Now " + hear.count() + " commands loaded");
-    /* updatePresence();
-    setInterval(function(){
+    updatePresence();
+    /* setInterval(function(){
         updatePresence();
     }, 60 * 1000 * 2);*/ 
 });
