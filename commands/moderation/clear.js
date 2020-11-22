@@ -1,6 +1,9 @@
 module.exports = {
     enabled: true,
     trigger: "clear",
+    description: "Очищает канал в котором была введена команда.",
+      dontShowInHelp: false,
+      example: "clear",
     callback: message => {
         if (message.content.indexOf('!clear') > -1){
             const arggs = message.content.split(' ').slice(1);

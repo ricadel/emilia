@@ -4,6 +4,9 @@ const { oneLine } = require('common-tags');
 module.exports = {
     enabled: true,
     trigger: "github",
+    description: "Выводит информацию о репозитории и авторе.",
+      dontShowInHelp: false,
+      example: "github",
     callback: message => {
     const embed = new MessageEmbed()
       .setTitle('GitHub')

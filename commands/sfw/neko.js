@@ -6,6 +6,9 @@ const neko = new client();
 module.exports = {
     enabled: true,
     trigger: "neko",
+      description: "Отправляет рандомные неко картинки.",
+      dontShowInHelp: false,
+      example: "neko",
     callback: async message => {
   //команда 
     //Checks channel for nsfw

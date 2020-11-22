@@ -5,6 +5,9 @@ const neko = new client();
 module.exports = {
     enabled: true,
       trigger: "hgif",
+      description: "Отправляет рандомные хентай гифки.",
+      dontShowInHelp: false,
+      example: "hgif",
       callback: async message => {
     //command
 

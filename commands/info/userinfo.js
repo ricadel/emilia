@@ -20,7 +20,10 @@ const flags = {
 
 module.exports = {
     enabled: true,
-    trigger: "userinfo",
+	trigger: "userinfo",
+	description: "Выводит информацию о пользователе.",
+      dontShowInHelp: false,
+      example: "userinfo",
     callback: (message, target) => {
         const member = message.mentions.members.first() || message.guild.members.cache.get(target) || message.member;
 		const roles = member.roles.cache

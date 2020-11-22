@@ -2,6 +2,9 @@ const Discord = require('discord.js');
 module.exports = {
     enabled: true,
     trigger: "avatar",
+      description: "Отправляет аватар упомянутого пользователя.",
+      dontShowInHelp: false,
+      example: "avatar",
     callback: message => {
         if(message.mentions.users.size){
             let member=message.mentions.users.first()

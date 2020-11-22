@@ -5,6 +5,9 @@ const neko = new client();
 module.exports = {
     enabled: true,
       trigger: "eroyuri",
+      description: "Отправляет рандомные Юри картинки.",
+      dontShowInHelp: false,
+      example: "eroyuri",
       callback: async message => {
     //command
 

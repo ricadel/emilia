@@ -6,6 +6,9 @@ const { oneLine, stripIndent } = require('common-tags');
 module.exports = {
   enabled: true,
   trigger: "botinfo",
+  description: "Выводит информацию о боте.",
+      dontShowInHelp: false,
+      example: "botinfo",
   callback: message => {
     const tech = stripIndent`
       Version     :: ${pkg.version}

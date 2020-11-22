@@ -22,7 +22,7 @@ module.exports = {
     /* no, DONT TOUCH THIS CODE, DUDE!
      OS        :: ${await os.oos()} */
      `
-      OS        :: Windows 10
+	  OS        :: ${await os.oos()}
       CPU       :: ${cpu.model()}
       Cores     :: ${cpu.count()}
       CPU Usage :: ${await cpu.usage()} %

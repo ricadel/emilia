@@ -5,6 +5,9 @@ const neko = new client();
 module.exports = {
   enabled: true,
     trigger: "hentai",
+      description: "Отправляет рандомные хентай картинки.",
+      dontShowInHelp: false,
+      example: "hentai",
     callback: async message => {
   //command
 

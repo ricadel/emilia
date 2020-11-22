@@ -18,7 +18,7 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-    hear.hear(message.content, message, client);
+    hear.hear(message);
 });
 
 function updatePresence() {

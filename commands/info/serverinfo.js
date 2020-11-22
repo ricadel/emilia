@@ -33,7 +33,10 @@ const regions = {
 
 module.exports = {
     enabled: true,
-    trigger: "serverinfo",
+	trigger: "serverinfo",
+	description: "Выводит информацию о сервере.",
+      dontShowInHelp: false,
+      example: "serverinfo",
     callback: message => {
 		const roles = message.guild.roles.cache.sort((a, b) => b.position - a.position).map(role => role.toString());
 		const members = message.guild.members.cache;
