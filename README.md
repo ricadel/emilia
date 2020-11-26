@@ -2,8 +2,8 @@
 
 <div align=center>
 
-  <a href="https://discord.gg/g6AvGJvB5K">
-    <img src="https://discordapp.com/api/guilds/595982299951005696/widget.png?style=shield" alt="shield.png">
+  <a href="https://discord.gg/CA9Xt3Enxp">
+    <img src="https://discordapp.com/api/guilds/781103006942232686/widget.png?style=shield" alt="shield.png">
   </a>
 
   <a href="https://github.com/discordjs">
